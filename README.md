@@ -95,3 +95,4 @@ Press coverage
 
  * http://hardware.slashdot.org/story/16/03/01/1727226/microcasting-color-tv-by-abusing-a-wi-fi-chip
  * http://news.softpedia.com/news/emitting-radio-waves-from-a-computer-with-no-radio-transmitting-hardware-501260.shtml
+ * https://tenwatts.blogspot.com/2018/01/system-bus-radio.html
