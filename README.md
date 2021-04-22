@@ -12,7 +12,7 @@ Publicly available documents already discuss exfiltration from secured systems u
 
 How to use it
 ------------------
-**NEW:** Try it without compiling anything, click here: http://fulldecent.github.io/system-bus-radio/
+**NEW:** Try it in your browser, click here: http://fulldecent.github.io/system-bus-radio/
 
 Enter the `Using _mm_stream_si128` folder and compile using `make`. (There are also other flavors you can `make` and try in different folders!)
 
@@ -23,6 +23,8 @@ Run this using a 2015 model MacBook Air. Then use a Sony STR-K670P radio receive
 You should hear the "Mary Had a Little Lamb" tune playing repeatedly. Other equipment and tuning may work as well. On the equipment above, the author has achieved clear transmission over two meters of open air or one meter through drywall. Different results will be achievable with different equipment.
 
 Are you using an antenna? At the beginning, the author placed the antenna directly on top of the number 4 key and that worked best (on any AM frequency). It was a round antenna. Then once they knew it worked they moved the antenna back. Moving it back reduced the number of frequencies that it worked on, and eventually only that one (1580 kHz) worked. Different hardware will certainly have different frequency response. Here are some results that have been sent in by readers. Please mail github.com@phor.net with your results (including makes and models of all equipment involved) or [edit this file directly](https://github.com/fulldecent/system-bus-radio/edit/master/TEST-DATA.tsv) and create a pull request.
+
+**NEW:** See our [basic RTL SDR guide] to receive system bus signals using another computer with RTL SDR hardware.
 
 Technical Explanation
 ------------------
