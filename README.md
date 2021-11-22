@@ -2,8 +2,6 @@ System Bus Radio
 ==================
 This program transmits radio on computers / phones without radio transmitting hardware.
 
-**:wine_glass: Project tip jar: https://amazon.com/hz/wishlist/ls/EE78A23EEGQB**
-
 Why?
 ------------------
 Some computers are intentionally disconnected from the rest of the world. This includes having their internet, wireless, bluetooth, USB, external file storage and audio capabilities removed. This is called "air gapping". Even in such a situation, this program can transmit radio.
@@ -36,7 +34,7 @@ This program runs instructions on the computer that cause electromagnetic radiat
  * Be accepted by the antenna
  * Be selected by the receiver
 
-By trial and error, the above frequency was found to be ideal for that equipment. If somebody would like to send a SDR that is capable of receiving 100 kHz and up then other frequencies could be tested.
+By trial and error, the above frequency was found to be ideal for that equipment.
 
 The actual emissions are caused by the `_mm_stream_si128` instruction that writes through to a memory address. Inspiration for using this instruction was provided in:
 
@@ -98,3 +96,5 @@ Press coverage
  * http://hardware.slashdot.org/story/16/03/01/1727226/microcasting-color-tv-by-abusing-a-wi-fi-chip
  * http://news.softpedia.com/news/emitting-radio-waves-from-a-computer-with-no-radio-transmitting-hardware-501260.shtml
  * https://tenwatts.blogspot.com/2018/01/system-bus-radio.html
+
+**:wine_glass: Project tip jar: https://amazon.com/hz/wishlist/ls/EE78A23EEGQB**
