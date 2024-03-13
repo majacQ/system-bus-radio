@@ -2,6 +2,15 @@ System Bus Radio
 ==================
 This program transmits radio on computers / phones without radio transmitting hardware.
 
+Thank you to our sponsors
+------------------
+
+<img src="https://radiostay.com/images/logo.svg" width=200>
+
+Listen to online radio - https://radiostay.com/
+
+
+
 Why?
 ------------------
 Some computers are intentionally disconnected from the rest of the world. This includes having their internet, wireless, bluetooth, USB, external file storage and audio capabilities removed. This is called "air gapping". Even in such a situation, this program can transmit radio.
@@ -24,7 +33,7 @@ Are you using an antenna? At the beginning, the author placed the antenna direct
 
 **NEW:** See our [basic RTL SDR guide] to receive system bus signals using another computer with RTL SDR hardware.
 
-Technical Explanation
+Technical explanation
 ------------------
 This program runs instructions on the computer that cause electromagnetic radiation. The emissions are of a broad frequency range. To be accepted by the radio, those frequencies must:
 
